@@ -1,0 +1,2 @@
+export PATH=bin:$PATH
+pythonsh MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/adriano/Dropbox/Adriano/ExemploTomcat/src/main/java/receptors/V20.mol2 -d ligand_dict.py -o /home/adriano/Dropbox/Adriano/ExemploTomcat/src/main/java/receptors/V20.pdbqt

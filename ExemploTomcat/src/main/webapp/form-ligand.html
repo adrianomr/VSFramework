@@ -1,0 +1,25 @@
+
+<div class="form-group not-repeat" style="display: none;">
+	<label for="multipleLigand">Ligand Type</label><br>
+	<button class="btn btn-secondary dropdown-toggle btn-block" type="button" id="ligandType" data-toggle="dropdown">
+		PDBQT
+	</button>
+	<ul class="dropdown-menu dropdown-menu-right btn-block">
+		<a class="btn btn-block" data-target="#ligandType" href="#">PDBQT</a>
+		<a class="btn btn-block" data-target="#ligandType" href="#">MOL2 (single structure)</a>
+	  	<a class="btn btn-block" data-target="#ligandType" href="#">MOL2 (multiple structures)</a>
+	</ul>
+</div>
+<div class="form-group not-repeat" style="display: none;">
+	<label for="rigidLigand">Rigid Ligand</label><br>
+	<div class="btn-group rigidLigand" role="group" aria-label="..." id="rigidLigand">
+	  <button type="button" id = "yesRigidLigand" class="btn btn-secondary active">Yes</button>
+	  <button type="button" id = "notRigidLigand" class="btn btn-secondary">No</button>
+
+	</div>
+</div>
+<div class="form-group">
+	<label for="ligandPath">Ligand Path</label>
+	<input type="text" class="form-control" id="ligandPath" aria-describedby="emailHelp" placeholder="Ex: /home/script_vs/nlm18_hydro">
+</div>
+<script src="js/virtual-screnning-conf-form.js"></script> 

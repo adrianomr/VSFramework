@@ -1,0 +1,22 @@
+<div class="form-group">
+	<label for="exampleInputEmail1">Do you want generate the script for Windows or Linux?</label>
+	<div class="btn-group operationalSystem" id="operationalSystem" role="group" data-toggle="operationalSystem" aria-label="...">
+		<button type="button" class="btn btn-secondary" id="windows" value="windows">Windows</button>
+		<button type="button" class="btn btn-secondary" id="linux" value="linux">Linux</button>
+	</div>
+</div>
+
+<div class="form-group">
+	<label for="exampleInputEmail1">Do you want execute the same experiment more than once?</label>
+	<div class="btn-group repeatExperiment" role="group" aria-label="...">
+		<button type="button" class="btn btn-secondary" id="repeat">Yes</button>
+		<button type="button" class="btn btn-secondary"	id = "notRepeat" >No</button>
+	</div>
+</div>
+
+<div class="form-group times" style="display: none;" aria-hidden="true">
+	<label for="ligandPath">How many times</label>
+	<input type="text" class="form-control" id="times" aria-describedby="emailHelp" placeholder="Number of times to execute script">
+</div>
+
+<script src="js/virtual-screnning-conf-form.js"></script> 

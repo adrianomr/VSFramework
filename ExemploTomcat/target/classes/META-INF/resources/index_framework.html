@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SB Admin - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+  </head>
+
+  <body class="bg-dark">
+
+    <div class="container">
+
+      <div class="card card-login mx-auto mt-5">
+        <div class="card-header">
+          Virtual Screnning
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">ID</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ID">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Name</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Distribution Configuration</label>
+              	<div class="dropdown">
+		  <button class="btn btn-secondary dropdown-toggle btn-block" type="button" data-toggle="dropdown">
+                      None
+                  </button>
+		  <ul class="dropdown-menu dropdown-menu-right btn-block">
+                    <li><a class="btn btn-block" data-target="#file-config" href="#">None</a></li>
+		    <li><a class="btn btn-block" id ="File" data-target="#file-config" href="#">File</a></li>
+		    <li><a class="btn btn-block" data-target="#file-config" href="#">Node Search</a></li>
+		    <li><a class="btn btn-block" data-target="#file-config" href="#">Cluster</a></li>
+		  </ul>
+		</div> 
+            </div>
+            <div class="form-group" id="file-config" style="display: none;">
+                <div class="input-group form-inline my-2 my-lg-0 mr-lg-2">
+                <input type="text" class="form-control" placeholder="Config file...">
+                <span class="input-group-btn">
+                  <label class="btn btn-light btn-block">
+                <i class="fa fa-ellipsis-h"></i><input type="file" style="display: none;"></label>
+                </span>
+              </div>
+                
+                
+            </div>
+            <a class="btn btn-primary" href="index.html">Cancelar</a>
+            <a class="btn btn-primary pull-right" href="ips-list.html">Confirmar</a>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="virtual-screnning.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>

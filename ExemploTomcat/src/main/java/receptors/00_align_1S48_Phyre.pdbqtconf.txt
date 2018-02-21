@@ -1,0 +1,11 @@
+receptor = 00_align_1S48_Phyre.PDBQT
+ligand = V20.PDBQT
+seed = 1234567891
+out = out.pdb
+
+center_x = 0.0center_y = 0.0center_z = 0.0
+size_x = 3.0
+size_y = 3.0 
+size_z = 3.0
+
+exhaustiveness = 0
